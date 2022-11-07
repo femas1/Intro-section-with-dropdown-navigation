@@ -7,6 +7,23 @@
 body {
     font-family: 'Epilogue', sans-serif;
     height: 100vh;
+    width: 100vw;
+}
+
+.navigation__logo {
+    height: 30px;
+}
+
+.navigation__links--1,
+.navigation__links--2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.navigation__links--2 {
+    margin-left: auto;
 }
 
 
