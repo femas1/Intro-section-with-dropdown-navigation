@@ -12,6 +12,8 @@ body {
 
 .navigation__logo {
     height: 30px;
+    margin-right: 25px;
+    cursor: pointer;
 }
 
 .navigation__links--1,
@@ -24,6 +26,16 @@ body {
 
 .navigation__links--2 {
     margin-left: auto;
+}
+
+.link {
+    cursor: pointer;
+    color: hsl(0, 0%, 41%);
+}
+
+.icon {
+    display: flex;
+    padding: 7px;
 }
 
 
