@@ -57,6 +57,16 @@ body {
     border: 2px solid hsl(0, 0%, 8%);
 }
 
+/* DROPDOWN STYLING  */
+
+.dropdown {
+    position: relative;
+    right: 50%;
+    transform: translateY(70%);
+    list-style-type: none;
+    background-color: red;
+}
+
 /* MAIN SECTION STYLING  */
 
 /* LEFT SIDE */
