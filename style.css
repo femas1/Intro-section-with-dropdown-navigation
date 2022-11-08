@@ -96,6 +96,8 @@ main {
 
 .container__text__btn {
     align-self: flex-start;
+    position: absolute;
+    top: 65%;
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 98%);
     font-weight: 700;
