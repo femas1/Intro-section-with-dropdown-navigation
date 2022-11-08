@@ -22,6 +22,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding: 10px 30px;
+    font-size: 14px;
 }
 
 .navigation__links--2 {
@@ -38,6 +39,79 @@ body {
     padding: 7px;
 }
 
+/* MAIN SECTION STYLING  */
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* LEFT SIDE */
+
+main {
+    display: flex; 
+    padding: 0 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.container__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.container__text__heading {
+    font-size: 80px;
+    padding-right: 120px;
+}
+
+.container__text__text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+    padding-right: 180px;
+    margin: 40px 0;
+}
+
+.container__text__btn {
+    align-self: flex-start;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    padding: 17px 30px;
+    cursor: pointer;
+}
+
+.container__sponsors {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container__sponsors > *:not(:first-child) {
+    margin-left: 35px;
+}
+
+/* RIGHT SIDE */
+
+.hero-desktop__image {
+    max-height: 650px;
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 25px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
