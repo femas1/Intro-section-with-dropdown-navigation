@@ -169,6 +169,28 @@ main {
     color: hsl(228, 45%, 44%); 
 }
 
+/* RESPONSIVE STYLING  */
+
+@media (max-width: 1330px) {
+    .container__text__heading {
+        font-size: 70px;
+    }
+}
+@media (max-width: 1270px) {
+    .container__text__heading {
+        font-size: 60px;
+    }
+}
+@media (max-width: 1200px) {
+    .container__text__heading {
+        font-size: 50px;
+    }
+
+    .container__text__text {
+        font-size: 16px;
+    }
+}
+
 .hidden {
     display: none;
 }
