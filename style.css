@@ -126,7 +126,8 @@ main {
 .container__text__btn {
     align-self: flex-start;
     position: absolute;
-    top: 65%;
+    /* top: 65%; */
+    transform: translateY(190px);
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 98%);
     font-weight: 700;
@@ -188,6 +189,18 @@ main {
 
     .container__text__text {
         font-size: 16px;
+    }
+}
+@media (max-width: 1060px) {
+    .hero-desktop__image {
+        max-height: 550px;
+        margin-left: 25px;
+    }
+}
+@media (max-width: 1008px) {
+    .hero-desktop__image {
+        max-height: 450px;
+        margin-left: 50px;
     }
 }
 
