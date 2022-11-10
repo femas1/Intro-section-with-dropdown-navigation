@@ -202,6 +202,10 @@ main {
         max-height: 450px;
         margin-left: 50px;
     }
+
+    .container__text__btn {
+        transform: translateY(155px);
+    }
 }
 
 .hidden {
