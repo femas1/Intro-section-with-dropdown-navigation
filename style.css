@@ -237,7 +237,15 @@ main {
 @media (max-width: 930px) {
 
     main {
-        margin-top: 30px;
+        margin-top: 70px;
+    }
+
+    .container__text {
+        justify-content: flex-start;
+    }
+
+    .container__text__btn {
+        transform: translateY(230px);
     }
 
     .hero-desktop__image {
