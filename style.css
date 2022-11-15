@@ -314,3 +314,9 @@ main {
 .hidden {
     display: none;
 }
+
+@media (max-width: 919px) {
+    .navBar  {
+        display: none;
+    }
+}
