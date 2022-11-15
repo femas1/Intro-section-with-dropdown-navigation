@@ -20,3 +20,6 @@ companyLink.addEventListener('mouseleave', () => {
     dropdowns[1].classList.add('hidden')
 })
 
+if(navBar.style.display = "none") {
+    navBarMobile.classList.remove('hidden');
+}
