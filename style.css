@@ -96,6 +96,7 @@ body {
     height: 100%;
     background-color: blue;
     padding: 0 30px;
+    z-index: 99;
 }
 
 .navigation__mobile__links--1,
