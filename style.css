@@ -95,11 +95,17 @@ body {
     transform: translateX(-100%);
     height: 100%;
     background-color: blue;
+    padding: 0 30px;
 }
 
 .navigation__mobile__links--1,
 .navigation__mobile__links--2 {
     list-style-type: none;
+}
+
+#featuresLink__mobile,
+#companyLink__mobile {
+    display: flex
 }
 
 /* MAIN SECTION STYLING  */
