@@ -60,6 +60,11 @@ body {
 
 /* DROPDOWN STYLING  */
 
+.navigation__closeMenu {
+    display: flex;
+    margin-left: auto;
+}
+
 .dropdown {
     position: absolute;
     top: 60px;
@@ -102,6 +107,11 @@ body {
 .navigation__mobile__links--1,
 .navigation__mobile__links--2 {
     list-style-type: none;
+}
+
+.navigation__mobile__links--1.link,
+.navigation__mobile__links--2.link {
+    padding: 10px 0;
 }
 
 #featuresLink__mobile,
