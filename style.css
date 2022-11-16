@@ -376,6 +376,30 @@ main {
 
 }
 
+@media (max-width: 475px) {
+
+    .container__text__heading{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .container__text__text {
+        padding: 0 8px;
+        font-size: 14px;
+    }
+
+    .container__sponsors > * {
+        width: 60px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .container__text__heading{
+        padding: 0;
+    }
+}
+
 .hidden {
     display: none;
 }
