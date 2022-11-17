@@ -104,6 +104,7 @@ body {
 }
 
 .navBar__mobile {
+    background-color: hsl(0, 7%, 92%);
     position: absolute;
     z-index: 99;
     display: flex;
