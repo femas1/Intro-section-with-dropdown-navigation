@@ -4,6 +4,7 @@ const dropdowns = document.querySelectorAll('.dropdown');
 const featuresLink = document.querySelector('#featuresLink');
 const companyLink = document.querySelector('#companyLink');
 const navBar = document.querySelector('.navBar');
+const navBarMobileHeader = document.querySelector('.navBarMobile-header');
 const navBarMobile = document.querySelector('.navBar__mobile');
 
 featuresLink.addEventListener('mouseover', () => {
@@ -19,7 +20,3 @@ companyLink.addEventListener('mouseover', () => {
 companyLink.addEventListener('mouseleave', () => {
     dropdowns[1].classList.add('hidden')
 })
-
-// if(navBar.style.display = "none") {
-//     navBarMobile.classList.remove('hidden');
-// }

@@ -97,7 +97,6 @@ body {
     z-index: 98;
     height: 80px;
     width: 100%;
-    color: blue;
     padding: 30px;
 
     display: flex;
@@ -419,5 +418,9 @@ main {
 @media (max-width: 919px) {
     .navBar  {
         display: none;
+    }
+
+    .navBarMobile-header {
+        display: flex;
     }
 }
