@@ -110,7 +110,6 @@ body {
     left: 100%;
     transform: translate(-100%, -80px);
     height: 100%;
-    background-color: blue;
     padding: 5px 30px;
     z-index: 99;
 }
