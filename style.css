@@ -93,11 +93,23 @@ body {
 
 /* NAVBAR MOBILE STYLING  */
 
+.navBarMobile-header {
+    z-index: 98;
+    height: 80px;
+    width: 100%;
+    color: blue;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
 .navBar__mobile {
     position: absolute;
+    z-index: 99;
     display: flex;
     left: 100%;
-    transform: translateX(-100%);
+    transform: translate(-100%, -80px);
     height: 100%;
     background-color: blue;
     padding: 5px 30px;
