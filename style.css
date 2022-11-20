@@ -127,9 +127,23 @@ body {
 
 #featuresLink__mobile,
 #companyLink__mobile {
-    display: flex
+    display: flex;
+    flex-direction: column;
 }
 
+#featuresMobile {
+    list-style-type: none;
+}
+
+.dropdown__mobile__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dropdown__mobile__link i {
+    margin-right: 3px;
+} 
 /* MAIN SECTION STYLING  */
 
 /* LEFT SIDE */
