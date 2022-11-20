@@ -42,6 +42,7 @@ closeMenu.addEventListener('click', ()=> {
 featuresOpener.addEventListener('click', () => {
     dropdownMobile.classList.toggle('hidden');
 })
+
 companyOpener.addEventListener('click', () => {
     dropdownMobileCompany.classList.toggle('hidden');
 })
