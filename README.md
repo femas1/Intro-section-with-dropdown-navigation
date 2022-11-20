@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/femas1/advice-generator-app.git](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://deluxe-rabanadas-d8c4a3.netlify.app/)
+- Solution URL: [https://github.com/femas1/advice-generator-app.git]()
+- Live Site URL: [https://deluxe-rabanadas-d8c4a3.netlify.app/]()
 
 ### Built with
 
