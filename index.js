@@ -8,6 +8,11 @@ const navBarMobileHeader = document.querySelector('.navBarMobile-header');
 const navBarMobile = document.querySelector('.navBar__mobile');
 const burgerMenu = document.getElementById('burgerMenu');
 const closeMenu = document.querySelector('.navigation__closeMenu');
+const featuresMobileOpen = document.getElementById('featuresMobile');
+const companyMobileOpen = document.getElementById('companyMobile');
+const dropdownMobile = document.querySelector('.dropdownMobile')
+
+const dropdownMobileOpener = document.getElementById('dropdownMobileOpener');
 
 featuresLink.addEventListener('mouseover', () => {
     dropdowns[0].classList.remove('hidden')
@@ -29,4 +34,8 @@ burgerMenu.addEventListener('click', ()=> {
 
 closeMenu.addEventListener('click', ()=> {
     navBarMobile.classList.add('hidden')
+})
+
+dropdownMobileOpener.addEventListener('click', () => {
+    dropdownMobile.classList.toggle('hidden');
 })
