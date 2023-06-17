@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation solution
 
- Live Site URL: [https://deluxe-rabanadas-d8c4a3.netlify.app/]()
+ Live Site URL: (https://deluxe-rabanadas-d8c4a3.netlify.app/)
 
 This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). 
 
